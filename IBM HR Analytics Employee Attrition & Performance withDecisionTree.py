@@ -14,6 +14,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
 
 #prepare database
+
+#https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
 uri = r'C:\Users\PAJAREE\Downloads\WA_Fn-UseC_-HR-Employee-Attrition.csv'
 df = pd.read_csv(uri)
 col = ['EmployeeCount','EmployeeNumber','Over18','StandardHours']
